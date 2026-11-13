@@ -1,0 +1,98 @@
+import numpy as n
+import pandas as p
+import matplotlib.pyplot as plt
+import matplotlib.pylab as m
+dst = p.read_csv("EX-1.csv")
+# #print(dst.head())
+# X = dst[['x','y']].values
+# y = (dst['z'] == a)
+# m.scatter(X[:, 0], X[:, 1], c=y ,cmap='coolwarm')
+#m.show()
+#                                STEP-1,finished                 
+#importing standard scaler
+ 
+#from sklearn.preprocessing import StandardScaler
+# X_new = StandardScaler().fit_transform(X)
+# m.scatter(X_new[:, 0], X_new[:, 1], c=y ,cmap='coolwarm')
+#m.show()
+
+# Another way 
+# x = n.random.exponential(10,(1000)) + n.random.normal(0,1,(1000))
+# m.hist(x -n.mean(x)/n.std(x), 30)
+# m.show()
+
+# #using quantile tranformer
+# from sklearn.preprocessing import StandardScaler, QuantileTransformer
+# from sklearn.linear_model import LogisticRegression 
+  #    USING COPILOT                       USING COPILOT                          USING COPILOT
+# # Load Your Data
+# X = dst[['x','y']].values
+# y = dst['x'].isin([1,2,3,4,5,6,7,8,9,10]).astype(int)
+
+# #Original data
+# m.scatter(X[:, 0], X[:, 1], c=y, cmap='coolwarm')
+# m.title('Original data')
+# m.show()
+
+# # transformed data
+# scaler = StandardScaler()
+# X_scaled = scaler.fit_transform(X)
+# m.scatter(X[:, 0], X[:, 1], c=y, cmap='coolwarm')
+# m.title('Transformed data')
+# m.show()
+
+# # Predicted data
+# model = LogisticRegression()
+# model.fit(X_scaled, y)
+# y_pred = model.predict(X_scaled)
+# m.scatter(X[:, 0], X[:, 1], c=y_pred , cmap='coolwarm')
+# m.title('Predicted data') 
+# m.show()
+
+# X = dst[['x','y']].values
+# y = dst['x'].isin([1,2,3,4,5,6,7,8,9,10]).astype(int)
+# m.scatter(X[:, 0], X[:, 1], c=y, cmap='coolwarm')
+# m.show()
+ #        IN COURSE                  IN COURSE                    IN COURSE
+
+X = dst[['x','y']].values
+y = (dst['z'] == 'a')
+#m.scatter(X[:, 0], X[:, 1], c=y, cmap='coolwarm')
+#m.show()
+
+# from sklearn.preprocessing import QuantileTransformer
+# from sklearn.linear_model import LogisticRegression
+# from sklearn.pipeline import Pipeline
+
+# pipe = Pipeline([
+#         ("scale",QuantileTransformer(n_quantiles=100)),
+#         ("model",LogisticRegression())
+
+# ])
+# pred = pipe.fit(X, y).predict(X)
+# m.scatter(X[:,0], X[:,1], c=pred, cmap='coolwarm')
+# m.show()
+
+# using Polynomial features
+# from sklearn.preprocessing import PolynomialFeatures
+# from sklearn.linear_model import LogisticRegression
+# from sklearn.pipeline import Pipeline
+
+# pipe = Pipeline([
+#         ("scale",PolynomialFeatures()),
+#         ("model",LogisticRegression())
+
+# ])
+# pred = pipe.fit(X, y).predict(X)
+# m.scatter(X[:,0], X[:,1], c=pred, cmap='coolwarm')
+# m.show()
+
+## preprocessing with another type of data
+arr = n.array(['low','low','medium','high']).reshape(-1,1)
+from sklearn.preprocessing import OneHotEncoder
+enc = OneHotEncoder(sparse_output=False, handle_unknown='ignore')
+enc.fit_transform(arr)
+co = enc.transform([['hundred']])
+print(co)
+
+

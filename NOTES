@@ -1,0 +1,9 @@
+Decision Trees;
+A decision tree is an supervised learning model that split data into braches based on feature values,forming tree-like structure which lead to predictions. they are widely used in ML for both classification(spam vs. not spam) and in reggression(predicting numeric values)
+Reggression;
+Reggression is a type of supervised learning that used to predict continuous numeric values based on input features. unlike classification (predicts spam or not spam), reggression predicts numeric values like salaries,bills,temperatures.
+23/10/2026
+Scikit-learn;
+The scikit-learn is an most popular python library for machine learning.it provides ready-made algorithms and tools so you can build ML Models without implementing the mathematics from scratch.
+Outlier;
+An outlier is an data point that is very different from most other datapoints(values) in your dataset.

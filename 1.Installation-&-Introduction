@@ -1,0 +1,95 @@
+# import matplotlib.pyplot as m
+# from sklearn.datasets import fetch_california_housing
+
+# from sklearn.neighbors import KNeighborsRegressor
+# from sklearn.linear_model import LinearRegression
+
+
+# X, y = fetch_california_housing(return_X_y=True)
+# mod = KNeighborsRegressor()
+# mod.fit(X, y)
+# KNeighborsRegressor()
+
+# mod.predict(X)
+# pred = mod.predict(X)
+# m.scatter(pred, y)
+# m.show()
+
+
+
+
+
+
+
+
+
+
+
+# import matplotlib.pyplot as m
+# from sklearn.datasets import fetch_california_housing
+
+# from sklearn.neighbors import KNeighborsRegressor
+# from sklearn.linear_model import LinearRegression
+
+# from sklearn.preprocessing  import StandardScaler
+# from sklearn.pipeline import Pipeline
+
+# X, y = fetch_california_housing(return_X_y=True)
+# mod = KNeighborsRegressor().fit(X, y)
+# pipe = Pipeline([
+#     ("scale",StandardScaler()),
+#     ("model",KNeighborsRegressor(n_neighbors=1))
+# ])
+# pipe.fit(X,y)
+# Pipeline(steps=[("scale",StandardScaler()),("model",KNeighborsRegressor(n_neighbors=1))])
+
+
+# pred = pipe.predict(X)
+# m.scatter(pred, y)
+# m.show()
+
+
+
+
+
+
+
+
+
+
+# import pandas as p
+# import matplotlib.pyplot as m
+# from sklearn.datasets import fetch_california_housing
+
+# from sklearn.neighbors import KNeighborsRegressor
+# from sklearn.linear_model import LinearRegression
+
+# from sklearn.preprocessing  import StandardScaler
+# from sklearn.pipeline import Pipeline
+
+# from sklearn.model_selection import GridSearchCV
+# X, y = fetch_california_housing(return_X_y=True)
+# pipe = Pipeline([
+#     ("scale",StandardScaler()),
+#     ("model",KNeighborsRegressor(n_neighbors=1))
+# ])
+# #print(pipe.get_params())
+# mod = GridSearchCV(estimator=pipe,param_grid={"model__n_neighbors":[1,2,3,4,5,6,7,8,9,10]},cv=3)
+# mod.fit(X,y);
+# results = p.DataFrame(mod.cv_results_)
+# print(results)
+# # m.show()
+
+
+
+
+
+
+
+
+
+
+
+from sklearn.datasets import fetch_california_housing
+print(fetch_california_housing()['DESCR'])
+ 

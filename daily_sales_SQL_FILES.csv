@@ -1,0 +1,102 @@
+day,customer_id,items,total_quantity,customer_name,customer_phone,total_cost
+1,101,"Bingo-1,lays-2",3,Charan,1324534657,30
+1,102,lays-4,4,abhi,9349856046,40
+1,103,kurkuray-1,1,sailu,0389568940,10
+1,104,"kurkuray ,bingo ",4,peter,8954035966,60
+1,105,"lays ,bingo ",5,balaji,2085685944,50
+1,106,"lays ,kurkuray ",4,chaitanya,9847586943,40
+2,107,"thumsup ,bingo ",4,vasista,9384758694,60
+2,108,"soda ,bingo ",2,suryanarayana,9364352864,25
+2,109,"lays ,soda ",8,raghu,2837458923,95
+2,110,thumsup-5,5,naveen,6289045876,100
+2,111,"sting-1,lays-3",4,nukesh,8539024583,50
+2,112,chips,2,new_customer,9876543210,20
+3,113,"bingo-20,thumsup-20",40,church,8247693389,600
+3,114,thumpsup-2,2,rajesh,3489502945,40
+3,115,lays-1,1,rakesh,0859035468,10
+3,116,kurkuray,1,teja,3948983066,10
+3,117,"cake,bingo",2,jessi,8207659456,25
+3,118,"cake,lays",7,paul,2030487903,90
+3,119,eclairs,10,abiram,5670929485,20
+3,120,moongdal,2,abhi,2049358904,10
+4,121,"kurkuray ,bingo ",6,peter,9876543210,73
+4,122,"lays ,kurkuray ",3,chaitanya,1324534657,22
+4,123,chips,7,paul,9847586943,54
+4,124,"kurkuray ,bingo ",4,sailu,3489502945,56
+4,125,"cake,bingo",4,naveen,3948983066,42
+4,126,"lays ,kurkuray ",5,paul,6289045876,37
+4,127,"thumsup ,bingo ",6,chaitanya,8954035966,34
+5,128,moongdal,4,teja,8207659456,65
+5,129,chips,3,sailu,9847586943,34
+5,130,thumpsup-2,6,abhi,8207659456,53
+5,131,"cake,bingo",4,abiram,1324534657,23
+5,132,eclairs,7,naveen,3489502945,25
+5,133,"kurkuray ,bingo ",3,paul,9876543210,82
+5,134,"thumsup ,bingo ",6,abhi,3948983066,46
+5,135,chips,4,teja,6289045876,645
+5,136,thumpsup-2,6,paul,8954035966,24
+5,137,moongdal,72,abiram,8207659456,24
+6,138,"lays ,kurkuray ",3,naveen,3489502945,456
+6,139,"thumsup ,bingo ",54,sailu,9847586943,42
+6,140,"cake,bingo",5,abhi,1324534657,84
+6,141,"kurkuray ,bingo ",4,peter,8207659456,46
+6,142,eclairs,7,chaitanya,9876543210,68
+6,143,"thumsup ,bingo ",8,abhi,3948983066,24
+6,144,chips,35,teja,8207659456,64
+6,145,thumpsup-2,2,paul,8954035966,26
+6,146,"thumsup ,bingo ",5,abiram,1324534657,245
+6,147,"lays ,kurkuray ",2,naveen,3489502945,865
+7,148,eclairs,58,chaitanya,8207659456,64
+7,149,moongdal,5,abhi,9847586943,87
+7,150,"kurkuray ,bingo ",56,teja,9876543210,85
+7,151,"thumsup ,bingo ",2,sailu,8954035966,245
+7,152,"cake,bingo",2,abhi,3948983066,93
+7,153,thumpsup-2,5,abiram,8207659456,27
+7,154,"lays ,kurkuray ",85,naveen,3489502945,39
+7,155,eclairs,3,peter,1324534657,27
+7,156,thumpsup-2,6,teja,6289045876,53
+7,157,"lays ,kurkuray ",5,paul,8207659456,245
+7,158,eclairs,5,chaitanya,8954035966,42
+7,159,"kurkuray ,bingo ",8,abhi,9847586943,74
+7,160,thumpsup-2,68,paul,9876543210,64
+7,161,"cake,bingo",3,sailu,3948983066,26
+8,162,"thumsup ,bingo ",5,abiram,1324534657,85
+8,163,"lays ,kurkuray ",3,sailu,8207659456,432
+8,164,chips,3,naveen,8954035966,56
+8,165,chips,3,teja,6289045876,23
+8,166,eclairs,5,peter,3489502945,45
+8,167,moongdal,68,paul,9876543210,765
+8,168,"kurkuray ,bingo ",53,chaitanya,1324534657,345
+8,169,"thumsup ,bingo ",8,abhi,9847586943,34
+9,170,moongdal,3,sailu,3948983066,76
+9,171,eclairs,4,naveen,8954035966,65
+9,172,"lays ,kurkuray ",5,peter,3489502945,378
+9,173,chips,7,sailu,8207659456,48
+9,174,"cake,bingo",4,abiram,1324534657,25
+9,175,thumpsup-2,4,teja,9876543210,36
+9,176,eclairs,7,paul,6289045876,48
+9,177,"kurkuray ,bingo ",8,sailu,8954035966,738
+9,178,"thumsup ,bingo ",2,abhi,9847586943,58
+9,179,eclairs,5,chaitanya,3948983066,37
+9,180,"thumsup ,bingo ",35,abhi,8207659456,63
+9,181,moongdal,8,paul,3489502945,47
+9,182,chips,5,naveen,8207659456,59
+9,183,thumpsup-2,3,abiram,1324534657,26
+9,184,moongdal,5,peter,6289045876,37
+10,185,"thumsup ,bingo ",3,sailu,6289045876,37
+10,186,"kurkuray ,bingo ",9,teja,8954035966,36
+10,187,eclairs,9,sailu,9876543210,347
+10,188,"cake,bingo",9,naveen,3948983066,53
+10,189,chips,75,chaitanya,8207659456,64
+10,190,"lays ,kurkuray ",95,abiram,9847586943,45
+10,191,"cake,bingo",5,paul,8207659456,34
+10,192,thumpsup-2,3,abhi,1324534657,34
+10,193,moongdal,4,teja,8954035966,34
+10,194,chips,2,abiram,3948983066,45
+10,195,kurkuray,7,chaitanya,1324534657,65
+10,196,thumpsup-2,6,naveen,9847586943,54
+10,197,moongdal,49,chaitanya,6289045876,742
+10,198,"lays ,kurkuray ",75,abhi,1324534657,72
+10,199,"kurkuray ,bingo ",5,teja,8207659456,54
+10,200,moongdal,3,abhi,8954035966,23
+11,201,"haldirams mixture",2,param,7820956793,345

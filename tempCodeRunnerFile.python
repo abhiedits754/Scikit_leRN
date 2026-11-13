@@ -1,0 +1,5 @@
+import numpy as n
+import pandas as p
+import matplotlib.pylab as m
+dst = p.read_csv("daily_sales_SQL_FILES.csv")
+print(dst.head())
